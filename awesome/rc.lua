@@ -819,5 +819,7 @@ end)
 beautiful.useless_gap = 5
 
 -- Auto start
-awful.spawn.with_shell("picom --experimental-backend")
 awful.spawn.with_shell("nitrogen --restore")
+awful.spawn.with_shell("picom --experimental-backend")
+awful.spawn.with_shell("ibus-daemon -drxR")
+awful.spawn.with_shell("/usr/lib/xfce-polkit/xfce-polkit")
