@@ -2,8 +2,8 @@
 add_newline = true
 
 [character]
-success_symbol = "[](bold blue)"
-error_symbol = "[✖](red)"
+success_symbol = "[ ](blue)"
+error_symbol = "[ ](red)"
 
 [time]
 disabled = true
@@ -27,6 +27,18 @@ trim_at = "-"
 style = "bold dimmed white"
 disabled = false
 
+[sudo]
+style = "green"
+symbol = " "
+disabled = false
+
 [git_branch]
 symbol = " "
+style = "purple"
+format = "on [$symbol$branch]($style) "
 
+[nodejs]
+format = "with [ $version](green) "
+
+[lua]
+format = "with [ $version](blue) "
