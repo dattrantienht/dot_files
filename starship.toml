@@ -5,6 +5,9 @@ add_newline = true
 success_symbol = "[ ](blue)"
 error_symbol = "[ ](red)"
 
+[directory]
+read_only = " 🔒"
+
 [time]
 disabled = true
 format = '🕙[\[ $time \]]($style) '
